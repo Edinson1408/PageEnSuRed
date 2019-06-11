@@ -7,6 +7,11 @@ import Header from './assets/Header';
 import Content from './assets/Content';
 import Footer from './assets/Footer';
 
+//assets
+
+import './assets/css/materialize.min.css';
+import './assets/css/style.css';
+
 //Data
 import item from '../data/Menu';
 
