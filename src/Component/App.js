@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './assets/css/App.css';
+//import './assets/css/App.css';
 
 //component
 import Header from './assets/Header';
@@ -8,9 +8,10 @@ import Content from './assets/Content';
 import Footer from './assets/Footer';
 
 //assets
-
 import './assets/css/materialize.min.css';
 import './assets/css/style.css';
+
+//import './assets/js/init.js';
 
 //Data
 import item from '../data/Menu';
