@@ -8,8 +8,13 @@ import Content from './assets/Content';
 import Footer from './assets/Footer';
 
 //assets
-import './assets/css/materialize.min.css';
+//import './assets/css/materialize.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
 import './assets/css/style.css';
+
+import M from "./assets/css/materialize.min.css";
+
+
 
 //import './assets/js/init.js';
 

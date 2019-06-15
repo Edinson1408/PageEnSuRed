@@ -10,12 +10,15 @@ import Contact from './Component/Contact';
 import Home from './Component/Home/';
 import Page404 from './Component/page404';
 
+import Nosotros from './Component/Nosotros';
+
 
 const AppRoutes = () =>
   <App>
     <Switch>
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/Nosotros" component={Nosotros} />
       <Route exact path="/" component={Home} />
       <Route component={Page404} />
     </Switch>

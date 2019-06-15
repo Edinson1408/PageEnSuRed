@@ -3,8 +3,14 @@ import React from 'react';
 import background1 from '../assets/img/Paralax/background1.jpg';
 import background2 from '../assets/img/Paralax/background2.jpg';
 import background3 from '../assets/img/Paralax/background3.jpg';
+// Import Materialize
+import M from "materialize-css";
 
 class Home extends React.Component  {
+  componentDidMount() {
+        // Auto initialize all the things!
+        M.AutoInit();
+    }
 render(){
   return (
     <div>
@@ -131,4 +137,6 @@ class Contenedor5 extends React.Component{
     </div>);
   }
 }
+
+
 export default Home;

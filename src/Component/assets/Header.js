@@ -18,13 +18,13 @@ render(){
   return (
     <nav className="white" role="navigation">
       <div className="nav-wrapper container">
-        <a id="logo-container" href="#" className="brand-logo">ENSURED</a>
+        <a id="logo-container" href="#" className="brand-logo" style={{color: '#444'}}>EnSuRed</a>
         <ul className="right hide-on-med-and-down">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="#">Equipo</a></li>
-          <li><a href="#">Catalogo</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a ><Link style={{color: '#444'}} to='/' >Inicio</Link></a></li>
+          <li><a ><Link style={{color: '#444'}} to='/Nosotros'>Nosotros</Link> </a></li>
+          <li><a style={{color: '#444'}} href="#">Equipo</a></li>
+          <li><a style={{color: '#444'}} href="#">Catalogo</a></li>
+          <li><a style={{color: '#444'}} href="#">Contacto</a></li>
         </ul>
 
         <ul id="nav-mobile" className="sidenav">
