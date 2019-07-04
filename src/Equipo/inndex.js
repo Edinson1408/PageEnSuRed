@@ -14,7 +14,18 @@ render(){
   return (
     <div className="ContenedorEquipo">
 
-     nosostros
+      <div className="row">
+        <Geral />
+        <Edinson />
+        <Emer />
+      </div>
+
+    <div className="container">
+      
+      
+      
+      
+      </div>
     </div>
   );
   }

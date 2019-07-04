@@ -18,11 +18,11 @@ render(){
   return (
     <nav className="white" role="navigation">
       <div className="nav-wrapper container">
-        <a id="logo-container" href="#" className="brand-logo" style={{color: '#444'}}>EnSuRed</a>
+        <a id="logo-container" href="#" className="brand-logo" style={{color: '#444'}}>AllSoftErp</a>
         <ul className="right hide-on-med-and-down">
           <li><a ><Link style={{color: '#444'}} to='/' >Inicio</Link></a></li>
           <li><a ><Link style={{color: '#444'}} to='/Nosotros'>Nosotros</Link> </a></li>
-          <li><a style={{color: '#444'}} href="#">Equipo</a></li>
+          <li><a ><Link style={{color: '#444'}} to='/Equipo'>Equipo</Link> </a></li>
           <li><a style={{color: '#444'}} href="#">Catalogo</a></li>
           <li><a style={{color: '#444'}} href="#">Contacto</a></li>
         </ul>
