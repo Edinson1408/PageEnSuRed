@@ -13,12 +13,12 @@ render(){
       <h5 className="center">Speeds up development</h5>
 
       <p className="light">Soy una forma de vida que evolucionó para vivir de películas extrañas, comics, comida chatarra y snark. Lamentablemente, nunca voy a ser una Ghostbuster cuando crezca.</p>
-      <p>
-            <img src="https://img.icons8.com/color/24/000000/youtube-play.png"></img>
-            <img src="https://img.icons8.com/color/24/000000/facebook-new.png"></img>
-            <img src="https://img.icons8.com/color/24/000000/instagram-new.png"></img>
-            <img src="https://img.icons8.com/color/24/000000/twitter-squared.png"></img>
-            <img src="https://img.icons8.com/color/24/000000/github.png"></img>
+      <p className="ItenRedesSociales"> 
+            <img className="IconosRedesSociales" src="https://img.icons8.com/color/24/000000/youtube-play.png"></img>
+            <img className="IconosRedesSociales" src="https://img.icons8.com/color/24/000000/facebook-new.png"></img>
+            <img className="IconosRedesSociales" src="https://img.icons8.com/color/24/000000/instagram-new.png"></img>
+            <img className="IconosRedesSociales" src="https://img.icons8.com/color/24/000000/twitter-squared.png"></img>
+            <img className="IconosRedesSociales" src="https://img.icons8.com/color/24/000000/github.png"></img>
             </p>
     </div>
   </div>
